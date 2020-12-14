@@ -19,12 +19,20 @@ namespace hello_world
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void Button3_Click(object sender, EventArgs e)
+
+    
+
+        private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello " + textBox1.Text);
+            MessageBox.Show("goodbye");
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
